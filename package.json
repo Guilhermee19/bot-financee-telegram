@@ -1,0 +1,28 @@
+{
+  "name": "bot-financee-telegram",
+  "version": "1.0.0",
+  "description": "Bot simples para Telegram usando Node.js",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guilhermee19/bot-financee-telegram.git"
+  },
+  "keywords": ["telegram", "bot", "nodejs"],
+  "author": "Guilherme Santana Rocha",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Guilhermee19/bot-financee-telegram/issues"
+  },
+  "homepage": "https://github.com/Guilhermee19/bot-financee-telegram#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
